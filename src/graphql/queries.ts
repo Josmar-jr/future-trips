@@ -9,6 +9,11 @@ export const GET_PAGES = gql`
       body {
         html
       }
+      profile {
+        url
+        height
+        width
+      }
     }
   }
 `;
@@ -21,6 +26,11 @@ export const GET_PAGE_BY_SLUG = gql`
       heading
       body {
         html
+      }
+      profile {
+        url
+        height
+        width
       }
     }
   }

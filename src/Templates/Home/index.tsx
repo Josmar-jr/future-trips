@@ -6,6 +6,7 @@ import { InfoOutline } from '@styled-icons/evaicons-outline/InfoOutline';
 import { LinkWrapper } from 'components/LinkWrapper';
 import { MapProps } from 'components/Map';
 import { NextSeo } from 'next-seo';
+import { Footer } from 'components/Footer';
 
 const Map = dynamic(() => import('components/Map'), { ssr: false });
 
@@ -24,16 +25,17 @@ export function HomeTemplate({ places }: MapProps) {
           images: [
             {
               url: '',
-              alt: ''
-            }
+              alt: '',
+            },
           ],
-          site_name: 'My Future Trips'
+          site_name: 'My Future Trips',
         }}
       />
       <LinkWrapper href="/about">
         <InfoOutline size={32} aria-label="About" />
       </LinkWrapper>
       <Map places={places} />
+      <Footer />
     </>
   );
 }

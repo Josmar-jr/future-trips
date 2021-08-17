@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   position: fixed;
   z-index: 1100; // bigger than leaflet
-  top: var(--medium);
+  top: var(--small);
   right: var(--medium);
   color: var(--white);
   cursor: pointer;
@@ -15,4 +15,4 @@ export const Wrapper = styled.div`
       color: var(--highlight);
     }
   }
-`
+`;
