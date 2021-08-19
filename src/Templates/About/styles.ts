@@ -5,6 +5,12 @@ export const Content = styled.section`
   width: 100%;
   margin: 2rem auto;
   min-height: 100vh;
+
+  h3 {
+    color: var(--primary);
+
+    font-size: var(--small);
+  }
 `;
 
 export const Heading = styled.h1`
@@ -26,10 +32,32 @@ export const Body = styled.div`
   }
 `;
 
+export const Flex = styled.div`
+  margin: 2rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  gap: 3rem;
+  border: 1px solid #c1c2cc;
+  border-radius: 12px;
+  padding: 1rem 0.5rem;
+`;
+
 export const Profile = styled.div`
   img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+  }
+`;
+
+export const AboutDeveloper = styled.aside`
+  width: 50%;
+
+  span {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 `;

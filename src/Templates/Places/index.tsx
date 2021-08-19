@@ -45,6 +45,7 @@ export function PlacesTemplate({ place }: PlacesTemplateProps) {
           ],
         }}
       />
+
       <S.Container
         as={motion.main}
         variants={containerAnimate}

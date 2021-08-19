@@ -13,7 +13,7 @@ import 'swiper/components/thumbs/thumbs.min.css';
 
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Thumbs } from 'swiper/core';
-import { motion } from 'framer-motion';
+import { motion, useTransform, useViewportScroll } from 'framer-motion';
 
 SwiperCore.use([Navigation, Thumbs]);
 
@@ -54,9 +54,7 @@ export function SlideGallery({ place }) {
               <Image
                 src={image.url}
                 alt={place?.name}
-                // width={image.width}
                 layout="fill"
-                // height={image.height}
                 quality={100}
               />
             </S.ImageContainer>
