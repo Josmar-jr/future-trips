@@ -4,13 +4,12 @@
 </h1>
 
 <h4 align="center">
-  O Future Trips é um projeto focado a geolocalização de futuras viagens cadastras pelo usuário. No click de cada pin, é possível conhecer um pouco do local, contendo descrição e imagens
+  O Future Trips é um projeto focado a geolocalização de futuras viagens cadastras pelo usuário. No click de cada pin, é possível conhecer um pouco do local através de textos e imagens.
 </h4>
 
 <p align="center">
-<a href="#TechsandLibels">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#Developer">Developer</a>
+ 
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://future-trips-gilt.vercel.app">Link do Site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
 </p>
 
@@ -38,16 +37,16 @@ Este projeto tem por objetivo utilizar as paginas de geração estática do Next
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Josmar-jr/IPAddressTracker.git
+$ git clone https://github.com/Josmar-jr/future-trips.git
 
 # Go into the repository
-$ cd IPAddressTracker
+$ cd future-trips
 
 # Install dependencies
 $ yarn install
 
 # Run the app
-$ yarn start
+$ yarn dev
 ```
 
 ## 👨‍💻 Developer
