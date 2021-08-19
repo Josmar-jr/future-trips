@@ -5,6 +5,9 @@ import { SlideGallery } from './slide';
 import { motion } from 'framer-motion';
 import * as S from './styles';
 import { containerAnimate, itemAnimate } from 'styles/animations';
+import { CloseOutline } from '@styled-icons/evaicons-outline';
+import { LinkWrapper } from 'components/LinkWrapper';
+import { Footer } from 'components/Footer';
 
 type ImageProps = {
   url: string;
@@ -45,7 +48,9 @@ export function PlacesTemplate({ place }: PlacesTemplateProps) {
           ],
         }}
       />
-
+      <LinkWrapper href="/">
+        <CloseOutline size={32} />
+      </LinkWrapper>
       <S.Container
         as={motion.main}
         variants={containerAnimate}
